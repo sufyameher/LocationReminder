@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/saveReminderFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_normal">
+
+    <EditText
+        android:id="@+id/reminderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/touch_target_padding"
+        android:textSize="16dp"
+        android:hint="@string/reminder_title" />
+
+    <EditText
+        android:id="@+id/reminderDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:hint="@string/reminder_desc"
+        android:lines="10" />
+
+    <TextView
+        android:id="@+id/selectLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_location"
+        android:textSize="16dp"
+        android:padding="@dimen/touch_target_padding"
+        android:gravity="center_vertical"
+        android:text="@string/reminder_location"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/selectedLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:textColor="@color/black"
+        tools:text="Location" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/saveReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:padding="@dimen/touch_target_padding"
+        android:src="@drawable/ic_save"
+        android:contentDescription="@string/save_reminder_button_description"
+        app:fabSize="auto" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+</LinearLayout>

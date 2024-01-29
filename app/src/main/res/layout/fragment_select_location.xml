@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:context=".SelectLocationFragment"/>
+
+    <TextView
+        android:id="@+id/normalMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normal Map" />
+
+    <TextView
+        android:id="@+id/hybridMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hybrid Map" />
+
+    <TextView
+        android:id="@+id/satelliteMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Satellite Map" />
+
+    <TextView
+        android:id="@+id/terrainMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terrain Map" />
+
+    <TextView
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:textAlignment="center" />
+</LinearLayout>

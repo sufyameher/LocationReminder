@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_normal"> 16dp</dimen>
+    <dimen name="edit_text_padding">8dp</dimen>
+    <dimen name="touch_target_padding">8dp</dimen>
+    <dimen name="fab_padding">8dp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="padding_small">padding small</dimen>
+    <dimen name="text_size_normal">text size normal</dimen>
+    <dimen name="text_size_small">text size small</dimen>
+    <dimen name="padding_medium">padding medium</dimen>
+    <dimen name="margin_top">margin top</dimen>
+</resources>

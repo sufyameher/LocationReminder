@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ic_add">ic add</drawable>
+    <drawable name="ic_no_data">ic no data</drawable>
+    <drawable name="ic_location">ic location</drawable>
+    <drawable name="ic_save">ic save</drawable>
+</resources>
